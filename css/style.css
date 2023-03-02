@@ -6,7 +6,7 @@ body {
 
 /* Top Navbar Start */
 #top-navbar,
-.slide{
+.slide {
   margin: 0 50px;
   display: flex;
   justify-content: space-between;
@@ -96,19 +96,20 @@ button {
 /* Feedback Div Start */
 .feedback {
   position: fixed;
-  top: 200px;
+  cursor: pointer;
+  top: 300px;
   right: 0;
-  background-color: #d43c16;
+  background-color: #d33c15;
   border-radius: 5px 0 0 5px;
-  padding: 10px 10px;
+  padding: 10px 8px;
   z-index: 2;
 }
 .feedback p {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   margin-bottom: 10px;
-  font-size: 13px;
-  font-weight: 40;
+  font-size: 12px;
+  font-weight: 300;
   color: #fff;
 }
 .feedback img {
@@ -127,7 +128,10 @@ button {
   justify-content: center;
 }
 /* About Top Start */
-.about-top, .about-middle, .about-bottom, #comments{
+.about-top,
+.about-middle,
+.about-bottom,
+#comments {
   margin: 120px 0px;
   padding: 0 70px;
   display: flex;
@@ -206,231 +210,260 @@ button {
 /* About Top End */
 
 /* About Middle Start */
-.about-middle > .top-left p{
-    width: 600px;
+.about-middle > .top-left p {
+  width: 600px;
 }
-.empty-left{
-    width: 45%;
+.empty-left {
+  width: 45%;
 }
 /* About Middle End */
 
 /* About Bottom Start */
-.boxes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 70px;
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 70px;
 }
-.box{
-    display: flex;
-    width: 50%;
-    padding: 5px 30px;
-    justify-content: space-between;
-    margin-bottom: 30px;
+.box {
+  display: flex;
+  width: 50%;
+  padding: 5px 30px;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
-.box a{
-color: #000;
+.box a {
+  color: #000;
 }
-.box a h2{
-    font-size: 21px;
-    font-weight: 800;
-    line-height: 28px;
+.box a h2 {
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 28px;
 }
-.box p{
-    color: #676767;
-    font-weight: 400;
+.box p {
+  color: #676767;
+  font-weight: 400;
 }
-.box a h4{
-    margin-top: 40px;
-    font-size: 14px;
-    font-weight: 800;
+.box a h4 {
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 800;
 }
 
-.image img{
-    width: 208px;
-    height: 208px;
-    margin-right: 30px;
-    cursor: pointer;
+.image img {
+  width: 208px;
+  height: 208px;
+  margin-right: 30px;
+  cursor: pointer;
 }
 /* About Bottom End */
 /* About Section End */
 
 /* Results Section Start */
-#results{
-    background-image: url(/images/slide/code-academy-bg.jpeg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 90px 0;
-    color: #fff;
-    position: relative;
+#results {
+  background-image: url(/images/slide/code-academy-bg.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 0;
+  color: #fff;
+  position: relative;
 }
 #results::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    opacity: 0.5;
-    z-index: 1;
-  }
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 1;
+}
 
-.results-text{
-    text-align: center;
-    font-size: 21px;
-    font-weight: 800;
-    margin-bottom: 50px;
-    position: relative;
-    z-index: 2;
+.results-text {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 800;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 2;
 }
-.results-numbers{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0 50px;
-    text-align: center;
-    position: relative;
-    z-index: 2;
+.results-numbers {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 50px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
 }
-.results-numbers h2{
-    font-size: 70px;
-    font-weight: 800;
+.results-numbers h2 {
+  font-size: 70px;
+  font-weight: 800;
 }
-.results-numbers h4{
-    font-size: 35px;
-    font-weight: 200;
+.results-numbers h4 {
+  font-size: 35px;
+  font-weight: 200;
 }
 /* Results Section End */
 
 /* Comments Section Start */
-.comments-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    color: #4a4a4a;
-    margin-bottom: 20px;
+.comments-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #4a4a4a;
+  margin-bottom: 20px;
 }
-.title-left{
-font-weight: 200;
-margin-right: 10px;
+.title-left {
+  font-weight: 200;
+  margin-right: 10px;
 }
-.title-right{
-    font-weight: 800;
+.title-right {
+  font-weight: 800;
 }
-.student-comment{
-    text-align: center;
-    color: #585858;
-    font-style: italic;
-    font-weight: 200;
-    font-size: 19.5px;
-    margin-bottom: 30px;
+.student-comment {
+  text-align: center;
+  color: #585858;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 19.5px;
+  margin-bottom: 30px;
 }
-.student{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    color: #4a4a4a;
+.student {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #4a4a4a;
 }
-.student img{
-    width: 100px;
-    border-radius: 50%;
-    margin-right: 30px;
+.student img {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
 }
-.student h4{
-    font-size: 21px;
-    font-weight: 800;
+.student h4 {
+  font-size: 21px;
+  font-weight: 800;
 }
-.student p{
-    font-size: 14px;
-    font-weight: 300;
+.student p {
+  font-size: 14px;
+  font-weight: 300;
 }
 /* Comments Section End */
 
 /* Partners Section Start */
-#partners, #our-students{
-margin: 120px 0px;
+#partners,
+#our-students {
+  margin: 120px 0px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
-.partners{
-    width: 100%;
+.partners {
+  width: 100%;
 }
-#partners img{
-    width: 120px;
+#partners img {
+  width: 120px;
 }
-#partners h2{
-    text-align: center;
-    font-size: 50px;
-    color: #4a4a4a;
-    line-height: 36px;
+#partners h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #4a4a4a;
+  line-height: 36px;
 }
-.partners-title{
-    margin: 50px 0;
+.partners-title {
+  margin: 50px 0;
 }
-#partners p{
-    text-align: center;
-    word-spacing: 5px;
-    color: #949494;
-    font-weight: 300;
+#partners p {
+  text-align: center;
+  word-spacing: 5px;
+  color: #949494;
+  font-weight: 300;
 }
-.line{
-    margin: 50px;
-    text-align: center;
+.line {
+  margin: 50px;
+  text-align: center;
 }
-.partners-logos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 66rem;
-    margin-top: 40px;
+.partners-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 66rem;
+  margin-top: 40px;
 }
 /* Partners Section End */
 
 /* Our Studients Section Start */
-#our-students{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+#our-students {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.our-students{
-    padding: 0 50px;
+.our-students {
+  padding: 0 50px;
 }
-.our-students h2{
-    font-size: 50px;
-    color: #4a4a4a;
-    line-height: 40px;
-    text-align: center;
+.our-students h2 {
+  font-size: 50px;
+  color: #4a4a4a;
+  line-height: 40px;
+  text-align: center;
 }
-.yellow-line{
-    text-align: center;
-    margin: 20px 0;
+.yellow-line {
+  text-align: center;
+  margin: 20px 0;
 }
-.yellow-line img{
-    width: 130px;
-    height: 4px;
+.yellow-line img {
+  width: 130px;
+  height: 4px;
 }
-.photos{
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: space-evenly;
-   padding: 0 80px;
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 80px;
 }
-.photo{
-    width: 150px;
-    height: 150px;
-    margin-bottom: 15px;
+.photo {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
 }
-.photo img{
-    width: 150px;
-    height: 150px;
+.photo img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateX(0);
+  transition: transform 1s;
+}
+.photo img:hover {
+  transform: rotateX(360deg);
+  transform-origin: center;
+  filter: brightness(0.4);
+}
+.photo:hover h4 {
+  display: block; /* H2 etiketi görünür hale getiriliyor */
 }
 
+.photo h4 {
+  display: none; /* H2 etiketi başlangıçta gizlenir */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
